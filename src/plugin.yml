@@ -1,0 +1,9 @@
+name: ServerAuth
+version: 1.0
+main: me.lamergameryt.ServerAuth.ServerAuthMain
+author: LamerGamerYT
+commands:
+  serverauth:
+    usage: /<command>
+    description: ServerAuth Main Command
+    aliases: [sa]
