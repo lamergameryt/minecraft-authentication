@@ -22,7 +22,7 @@ This plugin has only two permissions:
 
 ## Is this secure?
 The players passwords are hashed with the SHA-512 hashing algorithm.
-According to [this post](https://stackoverflow.com/questions/6776050/how-long-to-brute-force-a-salted-sha-512-hash-salt-provided), a String hashed with SHA-512 will take approximately **3.17 * 10^64 years**.
+According to [this post](https://stackoverflow.com/questions/6776050/how-long-to-brute-force-a-salted-sha-512-hash-salt-provided), a String hashed with SHA-512 will take approximately **3.17 * 10^64 years** to bruteforce.
 
 Hence it is safe to say that the neither the admins, nor anyone trying to bruteforce the password is going to get the original password anytime soon.
 
